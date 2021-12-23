@@ -15,4 +15,4 @@ To run the web server, in the root project directory you can run on your termina
 ### `npm start`
 
 Runs the web server in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view the app on your browser (by default).
+Open [http://localhost:3000](http://localhost:3000) on your browser to view the app (by default).
