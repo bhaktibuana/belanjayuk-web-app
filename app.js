@@ -8,12 +8,18 @@ const port = 3000;
 app.set("view engine", "html");
 app.engine("html", ejs.renderFile);
 app.use(expressLayouts);
+app.use(express.static(__dirname));
 
 app.get("/", (req, res) => {
   res.render('pages/landingPage', {
     layout: "./layouts/index",
     title: "Belanjayuk",
   });
+});
+
+app.use("/", (req, res) => {
+  res.status(404);
+  res.send("<h1>404</h1>");
 });
 
 app.listen(port, () => {
