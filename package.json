@@ -1,0 +1,26 @@
+{
+  "name": "belanjayuk-web-app",
+  "version": "1.0.0",
+  "description": "Belanjayuk is a mini-project from Dibimbing course that I have built in the form of an e-commerce web application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaktibuana/belanjayuk-web-app.git"
+  },
+  "author": "Bhakti Mega Buana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaktibuana/belanjayuk-web-app/issues"
+  },
+  "homepage": "https://github.com/bhaktibuana/belanjayuk-web-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
