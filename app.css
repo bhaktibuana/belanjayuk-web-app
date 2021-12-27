@@ -1,7 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+.navlp-btn-signup {
+  border-radius: 12px;
+  margin: 2px 5px;
+  background: #4fd1c5;
+  white-space: nowrap;
+  font-weight: bold;
+  padding: 8px 18px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #4fd1c5;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.navlp-btn-signup:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #4fd1c5;
+}
+
+.navlp-btn-signin {
+  border-radius: 12px;
+  margin: 2px 5px;
+  background: #fff;
+  white-space: nowrap;
+  font-weight: bold;
+  padding: 8px 18px;
+  color: #4fd1c5;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #4fd1c5;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.navlp-btn-signin:hover {
+  transition: all 0.2s ease-in-out;
+  background: #4fd1c5;
+  color: #fff;
+}
+
+.lp-title-container {
+  background: linear-gradient(45deg, #4fd1c5, #fff);
+  height: 900px;
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .lp-title-container {
+    flex-direction: column;
+    background: linear-gradient(#4fd1c5, #fff);
+  }
+}
+
+.lp-title-content-left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.lp-title-content-left h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.lp-title-content-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
